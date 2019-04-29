@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileBatch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Badger\Badger.csproj">
+      <Project>{FE410208-053A-4719-9835-634845EE0428}</Project>
+      <Name>Badger</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FolderReader\FolderReader.csproj">
       <Project>{68B3C737-0AE0-4D35-955D-FC403AD5EFB4}</Project>
       <Name>FolderReader</Name>
